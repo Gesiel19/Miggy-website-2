@@ -8,7 +8,7 @@ import FrontPage from './components/front/FrontPage'
 function App() {
  
   return (
-    
+    <BrowserRouter >
    <Routes>
     <Route path='/' element={ <FrontPage /> }/>
     <Route path='/book' element={ <Book /> }/>
@@ -16,6 +16,7 @@ function App() {
    
    
    </Routes>
+   </BrowserRouter>
   )
 }
 

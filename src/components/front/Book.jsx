@@ -1,7 +1,10 @@
 import React from "react";
 import "./../scss/Book.scss";
+import { useSelector } from "react-redux";
 
 const Book = () => {
+  const citasAgendadas = useSelector((store) => store.bookingReducer);
+console.log(citasAgendadas)
   return (
     
     <>

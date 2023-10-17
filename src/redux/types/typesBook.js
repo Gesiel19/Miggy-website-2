@@ -1,0 +1,6 @@
+export const bookingTypes = {
+    ADD_BOOKING_ONE: ' ADD_BOOKING_ONE',
+    GET_BOOKING_ONE: ' GET_BOOKING_ONE',
+    ADD_BOOKING_TWO: ' ADD_BOOKING_TWO',
+    GET_BOOKING_TWO: ' GET_BOOKING_TWO', 
+}
