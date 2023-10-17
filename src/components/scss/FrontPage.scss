@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+
+    display: flex;
+    flex-direction: column;
+
+    &_lg{
+        margin-left: -900px;
+        
+    }
+
+    &_list{
+        margin-left: 300px;
+        margin-top: -90px;
+        display: flex;
+        gap:20px;
+        
+
+        a{
+            text-decoration: none;
+            color: #422A2A;
+            font-weight: 300;
+        }
+
+
+    }
+
+    &_banner{
+        margin-left: -68px;
+        margin-top: 40px;
+
+    }
+
+    &_textb{
+        margin-top: -300px;
+        justify-content: center;
+        font-size:60px;
+        color: white;
+
+    }
+    &_textb2{
+        margin-top: -350px;
+        justify-content: center;
+        font-size:60px;
+        color: white;
+
+    }
+
+}
+
+.main{
+    margin-top: 270px;
+    
+    
+    &_banner1{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    &_section1{
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    &_section1-2{
+        margin-top: 80px;
+        margin-left: 40px;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+   &_section1-3{
+    margin-top: -20px;
+    margin-left: 40px;
+   }
+
+   &_section1-4{
+    width: 70%;
+    justify-content:inherit;
+    margin-top: -15px;
+    margin-left: 90px;
+    font-size: 20px;
+   }
+
+   &_section1-5{
+    margin-top: 60px;
+    margin-left: 0px;
+    font-size: 30px;
+    align-items: center;
+    font-style: italic;
+}
+
+// &_section1-7{
+    
+//     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+//     }
+// }
+   
+   &_banner2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;  
+  
+    
+}
+    &_banner3{
+        margin-top: 80px;
+        width: 150px;
+        height: 40px;
+       border-radius: 15px;
+       border: 1px solid goldenrod;
+       color:#422A2A;
+       font-size:18px;
+       font-style: italic;
+
+
+    }
+
+    &_banner4{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        gap:60px;
+        align-items: center;
+       
+    }
+
+    &_banner5{
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        width: 70vw;
+        margin-left: 80px;
+    }
+
+    &_banner6{
+        margin-top: 5px;
+        width: 150px;
+        height: 40px;
+       border-radius: 15px;
+       border: 1px solid goldenrod;
+       color:#422A2A;
+       font-size:18px;
+       font-style: italic;
+
+
+    }
+
+    
+
+   
+
+
+}

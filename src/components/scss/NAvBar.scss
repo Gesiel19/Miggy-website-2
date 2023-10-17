@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2? family= Alex+Brush & family= Open+Sans & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 5px;
+    font-family: 'Roboto';
+  
+
+    &_map{
+        display: flex;
+        gap: 25px;
+        color: #422A2A;
+        font-weight: 500;
+    }
+
+    &_containerLinks{
+        display: flex;
+        gap:20px;
+        
+        img:hover{
+            cursor: pointer;
+        }
+    }
+
+    &_iconws{
+        margin-top: -5px;
+        margin-left: -60px;
+    }
+}
+
+.button-book{
+    margin-top: -30px;
+    margin-left: -200px;
+}
