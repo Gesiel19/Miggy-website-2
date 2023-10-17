@@ -1,0 +1,23 @@
+
+
+.mainBook{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 70px;
+
+    &_one{
+        border: 2px blue solid;
+        padding: 60px;
+        background-color: antiquewhite;
+        border-radius: 30px;
+    }
+
+    &_two{
+        border: 2px green solid;
+        padding: 60px;
+        background-color: yellow;
+        border-radius: 30px;
+
+    }
+}
